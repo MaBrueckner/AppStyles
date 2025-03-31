@@ -1,0 +1,73 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:System="http://schemas.microsoft.com/winfx/2009/xaml">
+    <!--#region Themes-->
+    <FontFamily x:Key="PrimaryFontFamily">Calibri</FontFamily>
+    <System:Double x:Key="TitleFontSize">30</System:Double>
+    <System:Double x:Key="CaptionFontSize">20</System:Double>
+    <System:Double x:Key="HeaderFontSize">16</System:Double>
+    <System:Double x:Key="ButtonFontSize">14</System:Double>
+    <System:Double x:Key="TextFontSize">12</System:Double>
+    <System:Double x:Key="MenueFontSize">23</System:Double>
+    <!--#region Light Themes-->
+    <Color x:Key="Light_PrimaryColor">#E1E1E1</Color>
+    <Color x:Key="Light_SecondaryColor">#C8C8C8</Color>
+    <Color x:Key="Light_BackgroundColor">#ffffff</Color>
+    <Color x:Key="Light_ShadowColor">#7f000000</Color>
+    <SolidColorBrush x:Key="Light_PrimaryBrush" Color="{StaticResource Light_PrimaryColor}"/>
+    <SolidColorBrush x:Key="Light_SecondaryBrush" Color="{StaticResource Light_SecondaryColor}"/>
+    <SolidColorBrush x:Key="Light_BackgroundBrush" Color="{StaticResource Light_BackgroundColor}"/>
+    <SolidColorBrush x:Key="Light_ShadowBrush" Color="{StaticResource Light_ShadowColor}"/>
+    <LinearGradientBrush x:Key="Light_Gradient" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="{StaticResource Light_PrimaryColor}" Offset="0"/>
+        <GradientStop Color="{StaticResource Light_SecondaryColor}" Offset="1"/>
+    </LinearGradientBrush>
+    <!--#region Light Red Theme-->
+    <Color x:Key="Light_RedTextColor">#FF780202</Color>
+    <SolidColorBrush x:Key="Light_RedTextBrush" Color="{StaticResource Light_RedTextColor}"/>
+    <!--#endregion-->
+    <!--#region Light Blue Theme-->
+    <Color x:Key="Light_BlueTextColor">#FF003FB1</Color>
+    <SolidColorBrush x:Key="Light_BlueTextBrush" Color="{StaticResource Light_BlueTextColor}"/>
+    <!--#endregion-->
+    <!--#region Light Green Theme-->
+    <Color x:Key="Light_GreenTextColor">#FF027825</Color>
+    <SolidColorBrush x:Key="Light_GreenTextBrush" Color="{StaticResource Light_GreenTextColor}"/>
+    <!--#endregion-->
+    <!--#region Light Gold Theme-->
+    <Color x:Key="Light_GoldTextColor">#FFF7B548</Color>
+    <SolidColorBrush x:Key="Light_GoldTextBrush" Color="{StaticResource Light_GoldTextColor}"/>
+    <!--#endregion-->
+    <!--#endregion-->
+    <!--#region Dark Themes-->
+    <Color x:Key="Dark_PrimaryColor">#404040</Color>
+    <Color x:Key="Dark_SecondaryColor">#212121</Color>
+    <Color x:Key="Dark_BackgroundColor">#000000</Color>
+    <Color x:Key="Dark_ShadowColor">#7fffffff</Color>
+    <SolidColorBrush x:Key="Dark_PrimaryBrush" Color="{StaticResource Dark_PrimaryColor}"/>
+    <SolidColorBrush x:Key="Dark_SecondaryBrush" Color="{StaticResource Dark_SecondaryColor}"/>
+    <SolidColorBrush x:Key="Dark_BackgroundBrush" Color="{StaticResource Dark_BackgroundColor}"/>
+    <SolidColorBrush x:Key="Dark_ShadowBrush" Color="{StaticResource Dark_ShadowColor}"/>
+    <LinearGradientBrush x:Key="Dark_Gradient" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="{StaticResource Dark_PrimaryColor}" Offset="0"/>
+        <GradientStop Color="{StaticResource Dark_SecondaryColor}" Offset="1"/>
+    </LinearGradientBrush>
+    <!--#region Dark Red Theme-->
+    <Color x:Key="Dark_RedTextColor">#FFE50000</Color>
+    <SolidColorBrush x:Key="Dark_RedTextBrush" Color="{StaticResource Dark_RedTextColor}"/>
+    <!--#endregion-->
+    <!--#region Dark Blue Theme-->
+    <Color x:Key="Dark_BlueTextColor">#FF0E5DCC</Color>
+    <SolidColorBrush x:Key="Dark_BlueTextBrush" Color="{StaticResource Dark_BlueTextColor}"/>
+    <!--#endregion-->
+    <!--#region Dark Green Theme-->
+    <Color x:Key="Dark_GreenTextColor">#FF0ECC32</Color>
+    <SolidColorBrush x:Key="Dark_GreenTextBrush" Color="{StaticResource Dark_GreenTextColor}"/>
+    <!--#endregion-->
+    <!--#region Dark Gold Theme-->
+    <Color x:Key="Dark_GoldTextColor">#FFFFCE2A</Color>
+    <SolidColorBrush x:Key="Dark_GoldTextBrush" Color="{StaticResource Dark_GoldTextColor}"/>
+    <!--#endregion-->
+    <!--#endregion-->
+    <!--#endregion-->
+</ResourceDictionary>
