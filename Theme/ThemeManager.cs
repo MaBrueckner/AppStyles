@@ -16,6 +16,13 @@ namespace AppStyles.Theme
             _jsRuntime = jsRuntime;
         }
 
+        public ThemeManager(string resourceFilePath, IJSRuntime jsRuntime)
+        {
+            //resourceFilePath = "pack://application:,,,/AppStyles;component/Themes.xaml";
+            _themeLoader = new ThemeLoader(resourceFilePath);
+            _jsRuntime = jsRuntime;
+        }
+
         public async Task ApplyThemeAsync(Theme.ThemeStyle style, string jsMethod)
         {
             _currentTheme = _themeLoader.LoadTheme(style);
